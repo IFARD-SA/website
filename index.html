@@ -1,11 +1,152 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <meta name="description" content="IFARD-SA - Instituto de Formación y Desarrollo">
+    <meta name="keywords" content="IFARD-SA, formación, desarrollo, educación">
+    <title>IFARD-SA - Instituto de Formación y Desarrollo</title>
+    <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
-    <h1>Hola como va</h1>
+    <!-- Header -->
+    <header>
+        <nav>
+            <a href="#" class="logo">IFARD-SA</a>
+            <ul class="nav-links">
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#about">Nosotros</a></li>
+                <li><a href="#servicios">Servicios</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="inicio" class="hero">
+        <h1>Bienvenidos a IFARD-SA</h1>
+        <p>Instituto de Formación y Desarrollo comprometido con la excelencia educativa y el crecimiento profesional</p>
+        <a href="#contacto" class="cta-button">Contáctanos</a>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <h2 class="section-title">Sobre Nosotros</h2>
+        <div class="about-content">
+            <div class="about-text">
+                <h3>Nuestra Misión</h3>
+                <p>
+                    En IFARD-SA nos dedicamos a proporcionar formación de calidad y servicios de desarrollo
+                    que impulsan el crecimiento personal y profesional de nuestros estudiantes y clientes.
+                </p>
+                <p>
+                    Con años de experiencia en el sector educativo, nos enorgullece ser un referente
+                    en formación continua y desarrollo de competencias.
+                </p>
+                <p>
+                    Nuestro equipo de profesionales altamente cualificados trabaja constantemente
+                    para ofrecer programas actualizados y adaptados a las necesidades del mercado actual.
+                </p>
+            </div>
+            <div class="about-image">
+                <p>Espacio para imagen institucional</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="servicios">
+        <h2 class="section-title">Nuestros Servicios</h2>
+        <div class="services-grid">
+            <div class="service-card">
+                <div class="service-icon">📚</div>
+                <h3>Formación Profesional</h3>
+                <p>
+                    Programas de capacitación diseñados para mejorar las competencias profesionales
+                    y abrir nuevas oportunidades laborales.
+                </p>
+            </div>
+            <div class="service-card">
+                <div class="service-icon">🎓</div>
+                <h3>Cursos Especializados</h3>
+                <p>
+                    Cursos técnicos y especializados en diversas áreas, impartidos por
+                    expertos del sector con experiencia práctica.
+                </p>
+            </div>
+            <div class="service-card">
+                <div class="service-icon">💼</div>
+                <h3>Consultoría</h3>
+                <p>
+                    Servicios de asesoramiento y consultoría para empresas e instituciones
+                    que buscan optimizar sus procesos de formación.
+                </p>
+            </div>
+            <div class="service-card">
+                <div class="service-icon">🌐</div>
+                <h3>Formación Online</h3>
+                <p>
+                    Plataforma de aprendizaje en línea con contenido interactivo y
+                    acceso flexible desde cualquier lugar.
+                </p>
+            </div>
+            <div class="service-card">
+                <div class="service-icon">📊</div>
+                <h3>Desarrollo Organizacional</h3>
+                <p>
+                    Programas personalizados para el desarrollo y fortalecimiento de
+                    equipos de trabajo en organizaciones.
+                </p>
+            </div>
+            <div class="service-card">
+                <div class="service-icon">🏆</div>
+                <h3>Certificaciones</h3>
+                <p>
+                    Certificaciones oficiales reconocidas que validan las competencias
+                    adquiridas en nuestros programas formativos.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contacto" class="contact">
+        <h2 class="section-title">Contáctanos</h2>
+        <div class="contact-content">
+            <form class="contact-form">
+                <div class="form-group">
+                    <label for="nombre">Nombre Completo</label>
+                    <input type="text" id="nombre" name="nombre" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Correo Electrónico</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="telefono">Teléfono</label>
+                    <input type="tel" id="telefono" name="telefono">
+                </div>
+                <div class="form-group">
+                    <label for="mensaje">Mensaje</label>
+                    <textarea id="mensaje" name="mensaje" required></textarea>
+                </div>
+                <button type="submit" class="submit-button">Enviar Mensaje</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-content">
+            <div class="social-links">
+                <a href="#" aria-label="Facebook">📘</a>
+                <a href="#" aria-label="Twitter">🐦</a>
+                <a href="#" aria-label="LinkedIn">💼</a>
+                <a href="#" aria-label="Instagram">📷</a>
+            </div>
+            <p>&copy; 2025 IFARD-SA. Todos los derechos reservados.</p>
+            <p>Instituto de Formación y Desarrollo</p>
+        </div>
+    </footer>
 </body>
 </html>
